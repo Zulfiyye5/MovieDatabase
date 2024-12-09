@@ -5,7 +5,7 @@ namespace MyProject
 {
     public class MovieService
     {
-        private readonly string connectionString = "Dataa Source=DESKTOP-U5F3V0U\\SQLEXPRESS;Initial Catalog=moviesDatabase;Integrated Security=True;Encrypt=False;Trust Server Certificate=True";  // Add your connection string
+        private readonly string connectionString = "Dataa Source=DESKTOP-U5F3V0U\\SQLEXPRESS;Initial Catalog=moviesDatabase;Integrated Security=True;Encrypt=False;Trust Server Certificate=True";  
 
        
         public List<Movie> GetAllMovies()
